@@ -287,6 +287,8 @@
     <!-- Bootstrap CSS -->
   </head>
   <body>
+  <canvas id="canvas">
+  </canvas>
 <script>
     window.onload=function(){
   var merrywrap=document.getElementById("merrywrap");
@@ -308,13 +310,14 @@
     if(step===3){ 
     } 
     if(step===4){ 
+       loop();
        return;
     }     
     setTimeout(openBox,stepMinutes[step-1]);
     step++;  
   }
   init();
-  loop();
+  
 }
 // when animating on canvas, it is best to use requestAnimationFrame instead of setTimeout or setInterval
 // not supported in all browsers though and sometimes needs a prefix, so we need a shim
@@ -586,8 +589,6 @@ canvas.addEventListener( 'mouseup', function( e ) {
 	mousedown = false;
 });
     </script>
-    <canvas id="canvas">
-  </canvas>
   <div id="merrywrap" class="merrywrap">
     <canvas id="snowfall"></canvas>
     <div class="giftbox">
