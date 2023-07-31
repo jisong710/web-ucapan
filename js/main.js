@@ -67,7 +67,7 @@ $(window).on('load', function() {
 		TYPED JS
 	--------------------*/
 	$(".element").typed({
-		strings: ["mungkin","hanya ini yang bisa aku berikan", "", "yaa mendadak banget sih", "baru bikin jam 11 lebih juga", "intinya aku hanya ingin mengucapkan sesuatu", "untuk temanku yang berulang tahun hari ini", "sepurane ya slur penting penceten tombol iki", "lagi rampung digawe iki"],
+		strings: ["teringat dalam kalbu melihat sebuah nebula","dalam susunan orion di atas cakrawala","ternyata sekarang jatuh di hari selasa","di dalam hati ini aku ingin berkata","","dahlah","susah juga bikin kata kata","klik aja tombol ini","jangan mudah baper jika denganku, cukup aku aja jika aku siap"],
 		typeSpeed: 10,
 		loop:false,
 		backDelay: 2000
