@@ -67,7 +67,7 @@ $(window).on('load', function() {
 		TYPED JS
 	--------------------*/
 	$(".element").typed({
-		strings: ["teringat dalam kalbu melihat sebuah nebula","dalam susunan orion di atas cakrawala","ternyata sekarang jatuh di hari selasa","di dalam hati ini aku ingin berkata","","dahlah","susah juga bikin kata kata","klik aja tombol ini","jangan mudah baper jika denganku, cukup aku aja jika aku siap"],
+		strings: ["teringat dalam kalbu melihat sebuah nebula","dalam susunan orion di atas cakrawala","ternyata sekarang jatuh di hari istimewa","di dalam hati ini aku ingin berkata","","dahlah","susah juga bikin kata kata","klik aja tombol ini","walaupun kita baru kenal, mungkin mimpi kita sama"],
 		typeSpeed: 10,
 		loop:false,
 		backDelay: 2000
